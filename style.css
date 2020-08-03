@@ -1,0 +1,25 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display', serif;
+}
+
+.flex-container{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-container img{
+    width: 170px;
+}
+.menu-nav{
+    display: flex;
+    margin: 0px;
+    list-style: none;
+}
+.menu-nav a{
+    text-decoration: none;
+    padding: 23px;
+    color: blanchedalmond;
+}
